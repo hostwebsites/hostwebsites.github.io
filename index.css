@@ -1,0 +1,41 @@
+html {
+    background-color: #42253B;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #4C2C69;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.navigation a {
+    display: inline-block;
+    color: white;
+    border-style: solid;
+    border-color: #910A67;
+    border-radius: 10px;
+    background-color: #910A67;
+    padding: 8px;
+}
+
+.profile-user {
+    height: 50px;
+}
+
+.profile-user:hover {
+    height: 55px;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
